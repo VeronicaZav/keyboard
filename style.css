@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin:0 auto;
+    width: 100%;
+    min-height: 100%;
+}
+
+.container{
+    margin-top: 50px;
+}
+.wrapper{
+    margin:0 auto;
+    width: 1000px;
+    text-align: center;
+}
+#textarea{
+    width: 974px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: 3px solid #021a08
+
+}
+
+#textarea:focus{
+    outline: none;
+    border-color: #336340;
+}
+.keyboard_container{
+    padding: 10px 10px 1px 10px;
+    background-color: #2b4e34;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    
+}
+.key{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    border: 1px solid #021a08;
+    border-radius: 5px;
+    background-color: #336340;
+    transition: 0.3s;
+    cursor: pointer;
+    user-select: none;
+}
+.key:hover{
+    background-color: #8cffb3;
+}
+.key:active,
+.key:focus{
+    background-color: #38ff7a;
+}
+.backspace{
+    width: 168px;
+    background-color: #203a28;
+}
+.tab{
+    width: 164px;
+    background-color: #203a28;
+}
+.capsLk,
+.enter{
+    width: 140px;
+    background-color: #203a28;
+}
+.shift_left,
+.shift_right{
+    width: 140px;
+    background-color: #203a28;
+}
+.space{
+    width: 423px;
+}
+.ctrl_left,
+.ctrl_right{
+    width: 78px;
+    background-color: #203a28;
+}
+.alt_left,
+.alt_right,
+.win,
+.arrow_up,
+.arrow_down,
+.arrow_right,
+.arrow_left{
+    background-color: #203a28;
+}
+.active{
+    background-color: #38ff7a;
+    border-radius: 15px;
+}
